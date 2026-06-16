@@ -1,0 +1,42 @@
+{
+  "energy": {
+    "electricity_per_kwh": 0.00038,
+    "gas_per_m3": 0.00203,
+    "oil_per_liter": 0.00268,
+    "coal_per_kg": 0.00242
+  },
+  "transportation": {
+    "car_types": {
+      "petrol": 0.00018,
+      "diesel": 0.00017,
+      "hybrid": 0.00011,
+      "electric": 0.00005
+    },
+    "public_transit": {
+      "bus": 0.00009,
+      "train": 0.00004
+    },
+    "flights": {
+      "short_haul": 0.00015,
+      "long_haul": 0.00011
+    }
+  },
+  "diet": {
+    "vegan": 1.1,
+    "vegetarian": 1.4,
+    "pescatarian": 1.7,
+    "medium_meat": 2.5,
+    "heavy_meat": 3.3
+  },
+  "consumption": {
+    "thrifty": 0.5,
+    "average": 1.5,
+    "shopper": 3.5
+  },
+  "offsets": {
+    "tree_plantation_annual": -0.022,
+    "recycling_full": -0.4,
+    "recycling_partial": -0.2,
+    "water_liter_saved": -0.0000003
+  }
+}
